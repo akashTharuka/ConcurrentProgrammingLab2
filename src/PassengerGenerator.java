@@ -3,7 +3,7 @@ import java.util.concurrent.Semaphore;
 public class PassengerGenerator extends Generator {
 
     public PassengerGenerator(BusHalt busHalt){
-        super(busHalt, 2);
+        super(busHalt, 10);
     }
 
     public void run(){
